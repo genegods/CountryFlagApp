@@ -1,0 +1,76 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+input[type='text']:focus ~ .inputText{
+    @apply text-blue-500 transform -translate-y-9 scale-75
+}
+
+input[type='text']:valid +.inputText{
+    @apply text-blue-500 transform -translate-y-9 scale-75
+}
+
+
+.inputText2{
+    @apply text-blue-500 text-red-500 transform -translate-y-9 scale-75
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
